@@ -29,5 +29,26 @@ describe 'Calculator' do
     end
   end
 
+  describe '#subtract' do
+    it "returns the result of one number taken away from another" do
+      calc = Calculator.new
+    
+      expect(calc.subtract(5, 3)).to eq (2)
+    end
+  end
+
+  describe '#square' do
+    it "returns a given number raised to the second power" do
+      calc = Calculator.new
+
+      expect(calc.square(4)).to eq (16)
+    end
+
+    it "returns a given number raised to the second power" do
+      calc = Calculator.new
+
+      expect(calc.square(111)).to eq (12321)
+    end
+  end
 end
 

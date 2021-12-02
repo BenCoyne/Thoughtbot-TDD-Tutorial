@@ -10,4 +10,12 @@ class Calculator
       1.upto(n).reduce(:*)
     end
   end
+
+  def subtract(a, b)
+    a - b
+  end
+
+  def square(n)
+    n**2
+  end
 end

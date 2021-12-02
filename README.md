@@ -7,6 +7,8 @@ You can find the tutorial here:
 
 https://thoughtbot.com/upcase/videos/red-green-refactor-by-example#refactoring
 
+I added a couple of additional tests and their associated functions.
+
 ## Getting Started
 
 Clone the repository and make sure you have Rspec installed:
